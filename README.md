@@ -1,4 +1,6 @@
-# If you suffer from "I literally changed nothing.. why does my app not work anymore!" syndrome... This alias is for you
+![header](docs/TCDManualBase_PW-48_PW-44.svg)
+
+# If you suffer from “I literally changed nothing... why does my app not work anymore!” syndrome... This alias is for you
 
 ```
 alias nuke='rm -rf node_modules && rm -rf ios/build && rm -rf ios/Pods && rm -rf android/build && rm -rf --interactive=never ${TMPDIR}react-* ||: && rm -rf --interactive=never ${TMPDIR}metro-* ||: && watchman watch-del-all && yarn cache clean && yarn install --frozen-lockfile && cd ios && pod install && cd .. && cd android && ./gradlew clean && cd ..'
@@ -15,6 +17,7 @@ If you get any issues with temp folders:
   1. You should know enough to know what command to remove <br>
   or
   2. Who cares about temp folder anyways
-  
 
 ## Disclaimer: Just for fun. Please don't hold me responsible if something breaks :)
+
+![exploding-head](docs/1F92F@72px.svg)
