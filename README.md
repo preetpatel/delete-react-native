@@ -3,10 +3,7 @@
 ```
 alias nuke='rm -rf node_modules && rm -rf ios/build  && rm -rf ios/Pods && rm -rf android/build && rm -rf --interactive=never ${TMPDIR}react-* ||: && rm -rf --interactive=never ${TMPDIR}metro-* ||: && watchman watch-del-all && yarn cache clean && yarn install --frozen-lockfile && cd ios && pod install && cd .. && cd android && ./gradlew clean && cd ..'
 ```
-You can add this to your terminal profile (.bash_profile, .zshrc, etc..) and watch your apps magically work again after running 
-```
-$ nuke
-```
+You can add this to your terminal profile (.bash_profile, .zshrc, etc..) and watch your apps magically work again after running ```$ nuke``` inside the root folder of your react native project
 
 ## Common issues:
 If you get an error saying command not found: watchman:
