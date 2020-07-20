@@ -18,6 +18,6 @@ If you get any issues with temp folders:
   or
   2. Who cares about temp folder anyways
 
-![exploding-head](docs/1F92F@72px.svg)
-
 ## Disclaimer: Just for fun. Please don't hold me responsible if something breaks :)
+
+![exploding-head](docs/1F92F@72px.svg)
