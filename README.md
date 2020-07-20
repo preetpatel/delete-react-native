@@ -7,11 +7,13 @@ You can add this to your terminal profile (.bash_profile, .zshrc, etc..) and wat
 
 ## Common issues:
 If you get an error saying command not found: watchman:
-  1. Install watchman (```$ brew install watchman```)
+  1. Install watchman (```$ brew install watchman```) <br>
+  or
   2. Remove the ```watchman watch-del-all``` bit from the alias
   
 If you get any issues with temp folders:
-  1. You should know enough to know what command to remove
+  1. You should know enough to know what command to remove <br>
+  or
   2. Who cares about temp folder anyways
   
 
