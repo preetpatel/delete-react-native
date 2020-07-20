@@ -1,3 +1,5 @@
+![header](docs/TCDManualBase_PW-48_PW-44.svg)
+
 # If you suffer from "I literally changed nothing... why does my app not work anymore!" syndrome... This alias is for you
 
 ```
@@ -15,6 +17,7 @@ If you get any issues with temp folders:
   1. You should know enough to know what command to remove <br>
   or
   2. Who cares about temp folder anyways
-  
+
+![exploding-head](docs/1F92F@72px.svg)
 
 ## Disclaimer: Just for fun. Please don't hold me responsible if something breaks :)
